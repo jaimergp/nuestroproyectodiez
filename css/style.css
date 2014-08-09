@@ -630,10 +630,12 @@
 		#header h1 {
 			font-weight: 900;
 			margin: 0;
+			color: #B2B2B2
 		}
 
 			#header h1 span {
 				font-weight: 300;
+				color: #B2B2B2;
 			}
 
 		#header nav {
@@ -655,7 +657,7 @@
 
 				#header nav ul li a {
 					border: solid 1px transparent;
-					color: inherit;
+					color: #B2B2B2;
 					display: inline-block;
 					line-height: 1em;
 					padding: 0.6em 0.75em;
@@ -790,12 +792,12 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-color: #fff;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner_foto.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
-		color: white;
+		color: #B2B2B2;
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
@@ -859,10 +861,10 @@
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
-		background-position: top left, top right, bottom left, bottom right;
+		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg"), url("../images/banner.png");
+		background-position: top left, top right, bottom left, bottom right, top center;
 		background-repeat: no-repeat;
-		background-size: 25em;
+		background-size: 0, 0, 25em, 25em, 30em;
 		padding: 7em 0;
 	}
 
@@ -891,8 +893,8 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: top left, top right, top left, bottom center;
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay2.png"), url("../images/banner_foto.jpg");
+		background-position: top left, top right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: white;
