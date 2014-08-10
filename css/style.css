@@ -889,6 +889,10 @@
 		padding-top: 5em;
 	}
 
+	#main p {
+		padding: 0 15%;
+	}
+
 /* CTA */
 
 	#cta {
